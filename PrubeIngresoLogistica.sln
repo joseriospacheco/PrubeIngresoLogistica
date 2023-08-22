@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrubeIngresoLogistica.WebApi", "PrubeIngresoLogistica.WebApi\PrubeIngresoLogistica.WebApi.csproj", "{75C3D4EC-AFE1-4D9C-A941-C5853B758163}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrubeIngresoLogistica.Core", "PrubeIngresoLogistica.Core\PrubeIngresoLogistica.Core.csproj", "{2C75A936-E152-4ACB-8A9E-F1E1A9C8A923}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrubeIngresoLogistica.Infrastructure", "PrubeIngresoLogistica.Infrastructure\PrubeIngresoLogistica.Infrastructure.csproj", "{CFECFCFE-6405-48B0-87CC-400014181486}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrubeIngresoLogistica.Core.UnitsTest", "PrubeIngresoLogistica.Core.UnitsTest\PrubeIngresoLogistica.Core.UnitsTest.csproj", "{D6967C81-6C29-4A3D-BC10-AAF6EA0AA9B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrubeIngresoLogistica.WebApi.IntegrationTest", "PrubeIngresoLogistica.WebApi.IntegrationTest\PrubeIngresoLogistica.WebApi.IntegrationTest.csproj", "{E6127CB2-0845-4815-8394-EC85220DB169}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75C3D4EC-AFE1-4D9C-A941-C5853B758163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75C3D4EC-AFE1-4D9C-A941-C5853B758163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75C3D4EC-AFE1-4D9C-A941-C5853B758163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75C3D4EC-AFE1-4D9C-A941-C5853B758163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C75A936-E152-4ACB-8A9E-F1E1A9C8A923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C75A936-E152-4ACB-8A9E-F1E1A9C8A923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C75A936-E152-4ACB-8A9E-F1E1A9C8A923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C75A936-E152-4ACB-8A9E-F1E1A9C8A923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFECFCFE-6405-48B0-87CC-400014181486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFECFCFE-6405-48B0-87CC-400014181486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFECFCFE-6405-48B0-87CC-400014181486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFECFCFE-6405-48B0-87CC-400014181486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6967C81-6C29-4A3D-BC10-AAF6EA0AA9B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6967C81-6C29-4A3D-BC10-AAF6EA0AA9B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6967C81-6C29-4A3D-BC10-AAF6EA0AA9B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6967C81-6C29-4A3D-BC10-AAF6EA0AA9B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6127CB2-0845-4815-8394-EC85220DB169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6127CB2-0845-4815-8394-EC85220DB169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6127CB2-0845-4815-8394-EC85220DB169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6127CB2-0845-4815-8394-EC85220DB169}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A85EA417-BADD-4379-BB59-42907B921327}
+	EndGlobalSection
+EndGlobal

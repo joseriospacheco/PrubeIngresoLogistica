@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PrubeIngresoLogistica.Core.DTOs.Entrega
+{
+    public record EditarEntregaReqDTO(
+        int ClienteId,
+        double CantidadPoducto,
+        int LugarDestinoId,
+        int TipoProductoId
+
+
+    );
+}
